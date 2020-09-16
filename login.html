@@ -6,18 +6,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="style/css/bootstrap.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="style/css/style.css">
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/4649526873.js" crossorigin="anonymous"></script>
 
-		<title>AirPrint - Вход</title>
+		<title>PrintoPlace - Вход</title>
 	</head>
 	<body>
 		<div class="content bg-light" style="height: 100vh; min-height: 60rem;">
 			<!-- Main navbar -->
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom bg-light">
 				<div class="container">
-					<a class="navbar-brand" href="index.html">AirPrint</a>
+					<a class="navbar-brand link-primary" href="index.html">PrintoPlace</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -39,7 +41,7 @@
 								<a class="nav-link" href="login.html">Войти</a>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Меню
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -50,6 +52,10 @@
 								</div>
 							</li>
 						</ul>
+						<form class="btn-group">
+							<input class="form-control input-group-prepend border-right-0 pr-0 search" type="text" placeholder="Поиск">
+							<button class="btn bg-white text-secondary search-btn border-left-0" type="button"><i class="fas fa-search"></i></button>
+						</form>
 					</div>
 				</div>
 			</nav>
